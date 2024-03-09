@@ -1,5 +1,5 @@
 defmodule Tetrom.Game.Color do
-  def get_shape_name(shape) do
+  def get(shape) do
     case shape do
       :i -> {:ok, "blue"}
       :z -> {:ok, "red"}
